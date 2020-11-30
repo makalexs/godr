@@ -1,0 +1,17 @@
+# Server configurations
+server:
+  url: "localhost"
+
+# Database Postgres
+databasePostgres:
+  user: "postgres"
+  pass: "drpassword"
+  database: "drdatabase"
+  url: "127.0.0.1"
+  port: "15432"
+
+# Database Mongo
+databaseMongo:
+  database: "drotus"
+  url: "localhost"
+  port: "27020"
